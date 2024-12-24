@@ -52,16 +52,7 @@ begin
      out <= out+1;
 end
 endmodulemodule ex11(out,clk,rstn);
-input clk,rstn;
-output reg [3:0]out;
-always @ (posedge clk)
-begin
-   if(!rstn)
-     out<=0;
-   else 
-     out <= out+1;
-end
-endmodule
+
 ```
 Developed by: Ahamed Sahul Hameed M   RegisterNumber: 24900124
 */
